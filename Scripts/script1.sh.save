@@ -1,0 +1,14 @@
+fjkjsldf              #!/bin/bash 
+# Script 1: System Identity Report 
+          # Student details 
+STUDENT_NAME="YourName" 
+SOFTWARE="Git" 
+           
+          # System info 
+KERNEL=$(uname -r) 
+USER_NAME=$(whoami) 
+HOME_DIR=$HOME 
+UPTIME=$(uptime -p) 
+DATE=$(date) 
+        # Output 
+echo "==================================" echo " Open Source Audit — $STUDENT_NAME" echo " Software: $SOFTWARE" echo "==================================" echo "Kernel Version : $KERNEL" echo "User           : $USER_NAME" echo "Home Directory : $HOME_DIR" echo "Uptime         : $UPTIME" echo "Date & Time    : $DATE" echo "License        : GNU General Public License (GPL)" echo "==================================" 
